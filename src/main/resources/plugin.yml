@@ -1,0 +1,9 @@
+name: ChestSave
+version: '${project.version}'
+main: de.cool_miner2021.chestsave.ChestSave
+api-version: '1.20'
+commands:
+  chest:
+    aliases: c
+    description: Leute Zugriff auf deine Kisten geben
+    usage: /chest [add/remove] username | /chest list
